@@ -12,7 +12,7 @@ import java.util.Properties;
 import static io.restassured.RestAssured.given;
 
 public class APITest {
-    @Test
+//    @Test
 //    public static void Test(){
 //
 //        RestAssured.baseURI = "https://food2fork.com";
