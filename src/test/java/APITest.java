@@ -26,6 +26,7 @@ public class APITest {
                 get("/api/search").
                 then().
                 assertThat().statusCode(200).contentType(ContentType.HTML);
+        System.out.println("TeamCity is callinnn");
 
     }
 
