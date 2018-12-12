@@ -1,6 +1,5 @@
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 import org.testng.annotations.BeforeTest;
@@ -70,7 +69,8 @@ public class APITest {
 
         RestAssured.baseURI = prop.getProperty("HOST");
         System.out.println(RestAssured.baseURI);
-        Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).body(Resources.postNewUserBody()).contentType(ContentType.JSON).header("Origin","http://localhost:8111").
+        Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
+                body(Resources.postNewUserBody()).contentType(ContentType.JSON).header("Origin",prop.getProperty("HOST")).
                 when().
                 post(Resources.postNewUser()).
                 then().
@@ -85,7 +85,7 @@ public class APITest {
         RestAssured.baseURI = prop.getProperty("HOST");
         System.out.println(RestAssured.baseURI);
         Response res1 = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
-                header("Origin","http://localhost:8111").
+                header("Origin",prop.getProperty("HOST")).
                 when().
                 delete(Resources.postNewUser()+"/id:"+id).
                 then().
