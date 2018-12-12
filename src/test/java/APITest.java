@@ -51,7 +51,7 @@ public class APITest {
     public void getServer(){
 
         RestAssured.baseURI = prop.getProperty("HOST");
-
+        System.out.println(RestAssured.baseURI);
         Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
                 when().
                 get("/app/rest/server").
@@ -61,13 +61,14 @@ public class APITest {
         String output = res.asString();
         System.out.println(output);
 
+
     }
 
     @Test
     public void getProjects(){
 
         RestAssured.baseURI = prop.getProperty("HOST");
-
+        System.out.println(RestAssured.baseURI);
         Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
                 when().
                 get("/app/rest/projects").
