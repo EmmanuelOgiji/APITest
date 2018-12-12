@@ -1,4 +1,7 @@
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -11,7 +14,6 @@ import java.util.Properties;
 import static io.restassured.RestAssured.given;
 
 public class APITest {
-
 
     Properties prop = new Properties();
 
@@ -60,6 +62,37 @@ public class APITest {
 
         String output = res.asString();
         System.out.println(output);
+
+    }
+
+    @Test
+    public void postThenDeleteNewUser(){
+
+        RestAssured.baseURI = prop.getProperty("HOST");
+        System.out.println(RestAssured.baseURI);
+        Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).body(Resources.postNewUserBody()).contentType(ContentType.JSON).header("Origin","http://localhost:8111").
+                when().
+                post(Resources.postNewUser()).
+                then().
+                extract().response();
+
+        String output = res.asString();
+        System.out.println(output);
+        XmlPath xml =  new XmlPath(output);
+        String id = xml.get("user.@id").toString();
+        System.out.println("id= "+id);
+
+        RestAssured.baseURI = prop.getProperty("HOST");
+        System.out.println(RestAssured.baseURI);
+        Response res1 = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
+                header("Origin","http://localhost:8111").
+                when().
+                delete(Resources.postNewUser()+"/id:"+id).
+                then().
+                extract().response();
+
+        String output1 = res1.asString();
+        System.out.println(output1);
 
     }
 }
