@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="example suite 1" duration-ms="1271" started-at="2018-12-13T11:09:50Z" finished-at="2018-12-13T11:09:52Z">
+  <suite name="example suite 1" duration-ms="1397" started-at="2018-12-13T11:32:22Z" finished-at="2018-12-13T11:32:23Z">
     <groups>
     </groups>
-    <test name="APITest" duration-ms="1271" started-at="2018-12-13T11:09:50Z" finished-at="2018-12-13T11:09:52Z">
+    <test name="APITest" duration-ms="1397" started-at="2018-12-13T11:32:22Z" finished-at="2018-12-13T11:32:23Z">
       <class name="UsersTest">
-        <test-method status="PASS" signature="createNewUser()[pri:0, instance:UsersTest@2cb4c3ab]" name="createNewUser" duration-ms="1128" started-at="2018-12-13T11:09:50Z" finished-at="2018-12-13T11:09:51Z">
+        <test-method status="PASS" signature="createNewUser()[pri:0, instance:UsersTest@737996a0]" name="createNewUser" duration-ms="1208" started-at="2018-12-13T11:32:22Z" finished-at="2018-12-13T11:32:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUser -->
-        <test-method status="PASS" signature="deleteUser()[pri:0, instance:UsersTest@2cb4c3ab]" name="deleteUser" duration-ms="28" started-at="2018-12-13T11:09:51Z" finished-at="2018-12-13T11:09:52Z">
+        <test-method status="PASS" signature="deleteNewUser()[pri:0, instance:UsersTest@737996a0]" name="deleteNewUser" duration-ms="28" started-at="2018-12-13T11:32:23Z" finished-at="2018-12-13T11:32:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteUser -->
+        </test-method> <!-- deleteNewUser -->
       </class> <!-- UsersTest -->
       <class name="StatusTest">
-        <test-method status="PASS" signature="getEnvironment()[pri:0, instance:StatusTest@13c78c0b]" name="getEnvironment" is-config="true" duration-ms="6" started-at="2018-12-13T11:09:50Z" finished-at="2018-12-13T11:09:50Z">
+        <test-method status="PASS" signature="getEnvironment()[pri:0, instance:StatusTest@61dc03ce]" name="getEnvironment" is-config="true" duration-ms="8" started-at="2018-12-13T11:32:22Z" finished-at="2018-12-13T11:32:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEnvironment -->
-        <test-method status="PASS" signature="getEnvironment()[pri:0, instance:UsersTest@2cb4c3ab]" name="getEnvironment" is-config="true" duration-ms="1" started-at="2018-12-13T11:09:50Z" finished-at="2018-12-13T11:09:50Z">
+        <test-method status="PASS" signature="getEnvironment()[pri:0, instance:UsersTest@737996a0]" name="getEnvironment" is-config="true" duration-ms="0" started-at="2018-12-13T11:32:22Z" finished-at="2018-12-13T11:32:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getEnvironment -->
-        <test-method status="PASS" signature="getProjects()[pri:0, instance:StatusTest@13c78c0b]" name="getProjects" duration-ms="85" started-at="2018-12-13T11:09:52Z" finished-at="2018-12-13T11:09:52Z">
+        <test-method status="PASS" signature="getProjects()[pri:0, instance:StatusTest@61dc03ce]" name="getProjects" duration-ms="125" started-at="2018-12-13T11:32:23Z" finished-at="2018-12-13T11:32:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProjects -->
-        <test-method status="PASS" signature="getServer()[pri:0, instance:StatusTest@13c78c0b]" name="getServer" duration-ms="19" started-at="2018-12-13T11:09:52Z" finished-at="2018-12-13T11:09:52Z">
+        <test-method status="PASS" signature="getServer()[pri:0, instance:StatusTest@61dc03ce]" name="getServer" duration-ms="24" started-at="2018-12-13T11:32:23Z" finished-at="2018-12-13T11:32:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getServer -->

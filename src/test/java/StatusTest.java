@@ -16,6 +16,7 @@ public class StatusTest {
     Properties prop = new Properties();
 
     @BeforeSuite
+    @BeforeTest
     public void getEnvironment(){
         try{
             FileInputStream fis = new FileInputStream("src/Files/env.properties");
