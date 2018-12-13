@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [example suite 1]">
+  <test thread-count="5" verbose="0" name="APITest(failed)">
+    <classes>
+      <class name="StatusTest">
+        <methods>
+          <include name="getEnvironment"/>
+          <include name="getProjects"/>
+          <include name="getServer"/>
+        </methods>
+      </class> <!-- StatusTest -->
+      <class name="UsersTest">
+        <methods>
+          <include name="getEnvironment"/>
+          <include name="deleteUser"/>
+          <include name="createNewUser"/>
+        </methods>
+      </class> <!-- UsersTest -->
+    </classes>
+  </test> <!-- APITest(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->

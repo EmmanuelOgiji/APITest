@@ -2,6 +2,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -12,11 +13,12 @@ import java.util.Properties;
 
 import static io.restassured.RestAssured.given;
 
-public class APITest {
+public class UsersTest {
 
     Properties prop = new Properties();
+    String id;
 
-    @BeforeTest
+    @BeforeSuite
     public void getEnvironment(){
         try{
             FileInputStream fis = new FileInputStream("src/Files/env.properties");
@@ -32,40 +34,7 @@ public class APITest {
     }
 
     @Test
-    public void getServer(){
-
-        RestAssured.baseURI = prop.getProperty("HOST");
-        System.out.println(RestAssured.baseURI);
-        Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
-                when().
-                get(Resources.getServer()).
-                then().
-                assertThat().statusCode(200).extract().response();
-
-        String output = res.asString();
-        System.out.println(output);
-
-
-    }
-
-    @Test
-    public void getProjects(){
-
-        RestAssured.baseURI = prop.getProperty("HOST");
-        System.out.println(RestAssured.baseURI);
-        Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
-                when().
-                get(Resources.getProject()).
-                then().
-                assertThat().statusCode(200).extract().response();
-
-        String output = res.asString();
-        System.out.println(output);
-
-    }
-
-    @Test
-    public void postThenDeleteNewUser(){
+    public void createNewUser(){
 
         RestAssured.baseURI = prop.getProperty("HOST");
         System.out.println(RestAssured.baseURI);
@@ -79,9 +48,13 @@ public class APITest {
         String output = res.asString();
         System.out.println(output);
         XmlPath xml =  new XmlPath(output);
-        String id = xml.get("user.@id").toString();
+        id = xml.get("user.@id").toString();
         System.out.println("id= "+id);
 
+    }
+
+    @Test
+    public void deleteUser(){
         RestAssured.baseURI = prop.getProperty("HOST");
         System.out.println(RestAssured.baseURI);
         Response res1 = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
@@ -93,6 +66,5 @@ public class APITest {
 
         String output1 = res1.asString();
         System.out.println(output1);
-
     }
 }
