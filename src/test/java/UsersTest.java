@@ -19,6 +19,7 @@ public class UsersTest {
     String id;
 
     @BeforeSuite
+    @BeforeTest
     public void getEnvironment(){
         try{
             FileInputStream fis = new FileInputStream("src/Files/env.properties");
@@ -60,8 +61,9 @@ public class UsersTest {
         System.out.println(RestAssured.baseURI);
         Response res1 = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
                 header("Origin",prop.getProperty("HOST")).
+                pathParam("id",id).
                 when().
-                delete(Resources.postNewUser()+"/id:"+id).
+                delete(Resources.postNewUser()+"/id:{id}").
                 then().
                 extract().response();
 
