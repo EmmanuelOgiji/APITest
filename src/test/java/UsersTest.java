@@ -35,7 +35,7 @@ public class UsersTest {
 
     @Test
     public void createNewUser(){
-
+        System.out.println("createNewUser is running");
         RestAssured.baseURI = prop.getProperty("HOST");
         System.out.println(RestAssured.baseURI);
         Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
@@ -54,7 +54,8 @@ public class UsersTest {
     }
 
     @Test
-    public void deleteUser(){
+    public void deleteNewUser(){
+        System.out.println("deleteNewUser is running");
         RestAssured.baseURI = prop.getProperty("HOST");
         System.out.println(RestAssured.baseURI);
         Response res1 = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).

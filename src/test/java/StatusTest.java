@@ -32,7 +32,7 @@ public class StatusTest {
 
     @Test
     public void getServer(){
-
+        System.out.println("getServer is running");
         RestAssured.baseURI = prop.getProperty("HOST");
         System.out.println(RestAssured.baseURI);
         Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
@@ -49,7 +49,7 @@ public class StatusTest {
 
     @Test
     public void getProjects(){
-
+        System.out.println("getProjects is running");
         RestAssured.baseURI = prop.getProperty("HOST");
         System.out.println(RestAssured.baseURI);
         Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
