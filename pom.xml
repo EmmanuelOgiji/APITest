@@ -12,6 +12,12 @@
         <profile>
             <id>StatusAndUser</id>
             <build>
+                <resources>
+                    <resource>
+                        <directory> src/Files</directory>
+                        <filtering> true </filtering>
+                    </resource>
+                </resources>
                 <pluginManagement>
                     <plugins>
                         <plugin>
@@ -50,6 +56,12 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             <version>2.22.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.11.1</version>
         </dependency>
     </dependencies>
 </project>

@@ -8,12 +8,14 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import org.apache.logging.log4j.*;
 
 import static io.restassured.RestAssured.given;
 
 public class StatusTest {
 
     Properties prop = new Properties();
+    private static Logger log = LogManager.getLogger(StatusTest.class.getName());
 
     @BeforeSuite
     @BeforeTest
@@ -23,19 +25,19 @@ public class StatusTest {
             prop.load(fis);
         }
         catch(FileNotFoundException e){
-            System.out.println("File not found");
+            log.error("File not found");
         }
         catch(IOException e) {
-            System.out.println("IO Exception");
+            log.error("IO Exception");
         }
 
     }
 
     @Test
     public void getServer(){
-        System.out.println("getServer is running");
+        log.info("getServer is running");
         RestAssured.baseURI = prop.getProperty("HOST");
-        System.out.println(RestAssured.baseURI);
+        log.info("HOST is " + RestAssured.baseURI);
         Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
                 when().
                 get(Resources.getServer()).
@@ -43,16 +45,16 @@ public class StatusTest {
                 assertThat().statusCode(200).extract().response();
 
         String output = res.asString();
-        System.out.println(output);
+        log.info(output);
 
 
     }
 
     @Test
     public void getProjects(){
-        System.out.println("getProjects is running");
+        log.info("getProjects is running");
         RestAssured.baseURI = prop.getProperty("HOST");
-        System.out.println(RestAssured.baseURI);
+        log.info(RestAssured.baseURI);
         Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
                 when().
                 get(Resources.getProject()).
@@ -60,7 +62,7 @@ public class StatusTest {
                 assertThat().statusCode(200).extract().response();
 
         String output = res.asString();
-        System.out.println(output);
+        log.info(output);
 
     }
 }

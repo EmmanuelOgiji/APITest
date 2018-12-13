@@ -2,6 +2,8 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -16,6 +18,7 @@ import static io.restassured.RestAssured.given;
 public class UsersTest {
 
     Properties prop = new Properties();
+    private static Logger log = LogManager.getLogger(StatusTest.class.getName());
     String id;
 
     @BeforeSuite
@@ -26,19 +29,19 @@ public class UsersTest {
             prop.load(fis);
         }
         catch(FileNotFoundException e){
-            System.out.println("File not found");
+            log.error("File not found");
         }
         catch(IOException e) {
-            System.out.println("IO Exception");
+            log.error("IO Exception");
         }
 
     }
 
     @Test
     public void createNewUser(){
-        System.out.println("createNewUser is running");
+        log.info("createNewUser is running");
         RestAssured.baseURI = prop.getProperty("HOST");
-        System.out.println(RestAssured.baseURI);
+        log.info(RestAssured.baseURI);
         Response res = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
                 body(Resources.postNewUserBody()).contentType(ContentType.JSON).header("Origin",prop.getProperty("HOST")).
                 when().
@@ -47,18 +50,18 @@ public class UsersTest {
                 extract().response();
 
         String output = res.asString();
-        System.out.println(output);
+        log.info(output);
         XmlPath xml =  new XmlPath(output);
         id = xml.get("user.@id").toString();
-        System.out.println("id= "+id);
+        log.info("id= "+id);
 
     }
 
     @Test
     public void deleteNewUser(){
-        System.out.println("deleteNewUser is running");
+        log.info("deleteNewUser is running");
         RestAssured.baseURI = prop.getProperty("HOST");
-        System.out.println(RestAssured.baseURI);
+        log.info(RestAssured.baseURI);
         Response res1 = given().auth().basic(prop.getProperty("Username"),prop.getProperty("Password")).
                 header("Origin",prop.getProperty("HOST")).
                 pathParam("id",id).
@@ -68,6 +71,6 @@ public class UsersTest {
                 extract().response();
 
         String output1 = res1.asString();
-        System.out.println(output1);
+        log.info(output1);
     }
 }

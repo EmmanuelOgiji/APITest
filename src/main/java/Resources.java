@@ -8,9 +8,7 @@ public class Resources {
         return "/app/rest/projects";
     }
 
-    public static  String postNewUser(){
-        return "/app/rest/users";
-    }
+    public static  String postNewUser(){ return "/app/rest/users"; }
 
     public static  String postNewUserBody(){
         return "{\n" +

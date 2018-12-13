@@ -5,7 +5,22 @@
       <change afterPath="$PROJECT_DIR$/../AuSerenityProject/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AuSerenityProject/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AuSerenityProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Resources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StatusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StatusTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UsersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UsersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Resources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Resources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-StatusTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-StatusTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-UsersTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-UsersTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StatusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StatusTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UsersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UsersTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="289">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -29,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StatusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            <state relative-caret-position="-181">
+              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="135">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -50,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UsersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="67" column="37" lean-forward="true" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+            <state relative-caret-position="504">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,10 +75,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Files/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logs/prints.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logs/prints-2018-12-13.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Resources.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-74">
-              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="405">
+              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -94,11 +136,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/APITest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Resources.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/StatusTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/UsersTest.java" />
+        <option value="$PROJECT_DIR$/src/Files/log4j_config.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/StatusTest.java" />
+        <option value="$PROJECT_DIR$/src/Files/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/Files/env.properties" />
       </list>
     </option>
@@ -139,32 +183,13 @@
               <item name="TeamCity_APITest" type="b2602c69:ProjectViewProjectNode" />
               <item name="TeamCity_APITest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TeamCity_APITest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TeamCity_APITest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TeamCity_APITest" type="b2602c69:ProjectViewProjectNode" />
               <item name="TeamCity_APITest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TeamCity_APITest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TeamCity_APITest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TeamCity_APITest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TeamCity_APITest" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,11 +215,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544712506030" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544719871180" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Files" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UsersTest">
+  <component name="RunManager" selected="TestNG.StatusTest">
     <configuration name="StatusTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITest" />
       <option name="PACKAGE_NAME" value="" />
@@ -339,42 +370,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="APITest - 2018.12.12 at 16h 31m 44s.xml">
-      <configuration name="APITest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="StatusTest_(1) - 2018.12.13 at 10h 24m 07s.xml">
-      <configuration name="StatusTest (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UsersTest - 2018.12.13 at 10h 24m 21s.xml">
-      <configuration name="UsersTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TeamCityTestSequence - 2018.12.13 at 10h 33m 41s.xml">
-      <configuration name="TeamCityTestSequence" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 10h 35m 26s.xml">
+    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 18m 03s.xml">
       <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 11h 06m 14s.xml">
+    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 20m 58s.xml">
       <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 11h 07m 25s.xml">
+    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 23m 52s.xml">
       <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 11h 36m 54s.xml">
+    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 24m 50s.xml">
       <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 11h 37m 09s.xml">
+    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 25m 19s.xml">
       <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsersTest - 2018.12.13 at 14h 47m 49s.xml">
-      <configuration name="UsersTest" configurationId="TestNG" />
+    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 32m 40s.xml">
+      <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 33m 14s.xml">
+      <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatusTest - 2018.12.13 at 16h 33m 37s.xml">
+      <configuration name="StatusTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatusTest - 2018.12.13 at 16h 33m 49s.xml">
+      <configuration name="StatusTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatusTest - 2018.12.13 at 16h 47m 12s.xml">
+      <configuration name="StatusTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="965" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,7 +414,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32875144" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32875144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,44 +474,65 @@
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/APITest/Command line test.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="289">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StatusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UsersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="67" column="37" lean-forward="true" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+        <state relative-caret-position="504">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StatusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Files/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logs/prints.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logs/prints-2018-12-13.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
