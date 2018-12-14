@@ -4,19 +4,20 @@
     <Properties>
         <Property name="basePath">src/logs</Property>
         <Property name="HOST">localhost:8111</Property>
+        <Property name="MAX_SIZE">1000</Property>
     </Properties>
     <Appenders>
         <RollingFile name="StatusTestFile" fileName="${basePath}/${HOST}_StatusTest.log" filePattern="${basePath}/${HOST}_StatusTest-%d{yyyy-MM-dd}-%d{HH:mm:ss}.log">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-            <SizeBasedTriggeringPolicy size ="500" />
+            <SizeBasedTriggeringPolicy size ="${MAX_SIZE}" />
         </RollingFile>
         <RollingFile name="File" fileName="${basePath}/${HOST}.log" filePattern="${basePath}/${HOST}_StatusTest-%d{yyyy-MM-dd}-%d{HH:mm:ss}.log">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-            <SizeBasedTriggeringPolicy size ="500" />
+            <SizeBasedTriggeringPolicy size ="${MAX_SIZE}" />
         </RollingFile>
         <RollingFile name="UsersTestFile" fileName="${basePath}/${HOST}_UsersTest.log" filePattern="${basePath}/${HOST}_UsersTest-%d{yyyy-MM-dd}-%d{HH:mm:ss}.log">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-            <SizeBasedTriggeringPolicy size ="500" />
+            <SizeBasedTriggeringPolicy size ="${MAX_SIZE}" />
         </RollingFile>
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
