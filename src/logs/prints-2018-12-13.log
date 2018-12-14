@@ -1,3 +1,0 @@
-16:47:11.101 [main] INFO  StatusTest - getProjects is running
-16:47:11.367 [main] INFO  StatusTest - http://localhost:8111
-16:47:12.165 [main] INFO  StatusTest - <?xml version="1.0" encoding="UTF-8" standalone="yes"?><projects count="2" href="/app/rest/projects"><project id="_Root" name="&lt;Root project&gt;" description="Contains all other projects" href="/app/rest/projects/id:_Root" webUrl="http://localhost:8111/project.html?projectId=_Root"/><project id="APITest" name="APITest" parentProjectId="_Root" href="/app/rest/projects/id:APITest" webUrl="http://localhost:8111/project.html?projectId=APITest"/></projects>

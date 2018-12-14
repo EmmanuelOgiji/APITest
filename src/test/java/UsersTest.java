@@ -8,33 +8,18 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Properties;
 
 import static io.restassured.RestAssured.given;
 
-public class UsersTest {
+public class UsersTest extends TestCase {
 
-    Properties prop = new Properties();
-    private static Logger log = LogManager.getLogger(StatusTest.class.getName());
+    private static Logger log = LogManager.getLogger(UsersTest.class.getName());
     String id;
 
     @BeforeSuite
     @BeforeTest
-    public void getEnvironment(){
-        try{
-            FileInputStream fis = new FileInputStream("src/Files/env.properties");
-            prop.load(fis);
-        }
-        catch(FileNotFoundException e){
-            log.error("File not found");
-        }
-        catch(IOException e) {
-            log.error("IO Exception");
-        }
-
+    public void setup(){
+        TestCase.getEnvironment();
     }
 
     @Test

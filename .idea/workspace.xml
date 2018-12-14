@@ -6,19 +6,11 @@
       <change afterPath="$PROJECT_DIR$/../AuSerenityProject/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AuSerenityProject/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Resources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Files/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Files/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logs/prints-2018-12-13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logs/prints.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StatusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StatusTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UsersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UsersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Resources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Resources.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-StatusTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-StatusTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-UsersTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-UsersTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/StatusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StatusTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/UsersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UsersTest.class" afterDir="false" />
     </list>
@@ -33,19 +25,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StatusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="183">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/StatusTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-181">
-              <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="90">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,10 +62,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UsersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,26 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Files/log4j2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logs/prints.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logs/prints-2018-12-13.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="363">
+              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -104,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Resources.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+            <state relative-caret-position="120">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -114,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/src/Files/env.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
+              <caret column="20" selection-start-column="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -128,6 +109,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>resou</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -139,10 +125,12 @@
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Resources.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/UsersTest.java" />
         <option value="$PROJECT_DIR$/src/Files/log4j_config.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/StatusTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestEnvironment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UsersTest.java" />
         <option value="$PROJECT_DIR$/src/Files/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/StatusTest.java" />
         <option value="$PROJECT_DIR$/src/Files/env.properties" />
       </list>
     </option>
@@ -183,13 +171,33 @@
               <item name="TeamCity_APITest" type="b2602c69:ProjectViewProjectNode" />
               <item name="TeamCity_APITest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="Files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamCity_APITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamCity_APITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamCity_APITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamCity_APITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TeamCity_APITest" type="b2602c69:ProjectViewProjectNode" />
               <item name="TeamCity_APITest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamCity_APITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamCity_APITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,7 +223,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544719871180" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544788191423" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -239,8 +247,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.StatusTest">
+  <component name="RunManager" selected="TestNG.UsersTest then StatusTest">
     <configuration name="StatusTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StatusTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatusTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StatusTest" />
@@ -345,12 +363,13 @@
       <item itemvalue="TestNG.StatusTest.postThenDeleteNewUser" />
       <item itemvalue="TestNG.StatusTest (1)" />
       <item itemvalue="TestNG.UsersTest" />
+      <item itemvalue="TestNG.StatusTest (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StatusTest (2)" />
         <item itemvalue="TestNG.UsersTest" />
         <item itemvalue="TestNG.StatusTest (1)" />
-        <item itemvalue="TestNG.StatusTest.postThenDeleteNewUser" />
         <item itemvalue="TestNG.StatusTest.postThenDeleteNewUser" />
         <item itemvalue="TestNG.StatusTest.postThenDeleteNewUser" />
       </list>
@@ -370,42 +389,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 18m 03s.xml">
+    <history-entry file="StatusTest_(2) - 2018.12.14 at 10h 07m 14s.xml">
+      <configuration name="StatusTest (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatusTest_(2) - 2018.12.14 at 10h 23m 28s.xml">
+      <configuration name="StatusTest (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatusTest_(2) - 2018.12.14 at 10h 36m 42s.xml">
+      <configuration name="StatusTest (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatusTest_(2) - 2018.12.14 at 10h 37m 11s.xml">
+      <configuration name="StatusTest (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatusTest_(2) - 2018.12.14 at 10h 39m 57s.xml">
+      <configuration name="StatusTest (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatusTest_(2) - 2018.12.14 at 10h 44m 00s.xml">
+      <configuration name="StatusTest (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UsersTest_then_StatusTest - 2018.12.14 at 10h 46m 19s.xml">
       <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 20m 58s.xml">
+    <history-entry file="UsersTest_then_StatusTest - 2018.12.14 at 10h 47m 38s.xml">
       <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 23m 52s.xml">
+    <history-entry file="UsersTest_then_StatusTest - 2018.12.14 at 10h 49m 25s.xml">
       <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 24m 50s.xml">
+    <history-entry file="UsersTest_then_StatusTest - 2018.12.14 at 10h 51m 37s.xml">
       <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 25m 19s.xml">
-      <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 32m 40s.xml">
-      <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UsersTest_then_StatusTest - 2018.12.13 at 16h 33m 14s.xml">
-      <configuration name="UsersTest then StatusTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="StatusTest - 2018.12.13 at 16h 33m 37s.xml">
-      <configuration name="StatusTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="StatusTest - 2018.12.13 at 16h 33m 49s.xml">
-      <configuration name="StatusTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="StatusTest - 2018.12.13 at 16h 47m 12s.xml">
-      <configuration name="StatusTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="965" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="965" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -474,17 +493,73 @@
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/APITest/Command line test.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Resources.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/logs/prints.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logs/prints-2018-12-13.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logs/localhost:8111_StatusTest-2018-12-14-10:46:18.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logs/localhost:8111_StatusTest.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logs/localhost:8111_StatusTest-2018-12-14-10:47:37.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logs/localhost:8111_UsersTest.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logs/localhost:8111_UsersTest-2018-12-14-10:47:37.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UsersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StatusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -495,51 +570,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UsersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StatusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Files/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="363">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logs/prints.log">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Resources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logs/prints-2018-12-13.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="120">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Files/env.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <caret column="20" selection-start-column="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>

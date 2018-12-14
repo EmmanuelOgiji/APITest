@@ -3,23 +3,27 @@
 
     <Properties>
         <Property name="basePath">./src/logs</Property>
+        <Property name="HOST">localhost:8111</Property>
     </Properties>
     <Appenders>
-        <RollingFile name="File" fileName="${basePath}/prints.log" filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
+        <RollingFile name="StatusTestFile" fileName="${basePath}/${HOST}_StatusTest.log" filePattern="${basePath}/${HOST}_StatusTest-%d{yyyy-MM-dd}-%d{HH:mm:ss}.log">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
             <SizeBasedTriggeringPolicy size ="500" />
         </RollingFile>
-
+        <RollingFile name="UsersTestFile" fileName="${basePath}/${HOST}_UsersTest.log" filePattern="${basePath}/${HOST}_UsersTest-%d{yyyy-MM-dd}-%d{HH:mm:ss}.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size ="500" />
+        </RollingFile>
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
     </Appenders>
     <Loggers>
         <Logger name="StatusTest" level="trace" additivity="false">
-            <AppenderRef ref="File"/>
+            <AppenderRef ref="StatusTestFile"/>
         </Logger>
         <Logger name="UsersTest" level="trace" additivity="false">
-            <AppenderRef ref="File"/>
+            <AppenderRef ref="UsersTestFile"/>
         </Logger>
         <Root level="trace">
             <AppenderRef ref="File"/>

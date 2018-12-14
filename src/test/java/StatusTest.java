@@ -4,34 +4,20 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Properties;
 import org.apache.logging.log4j.*;
 
 import static io.restassured.RestAssured.given;
 
-public class StatusTest {
+public class StatusTest extends TestCase {
 
-    Properties prop = new Properties();
     private static Logger log = LogManager.getLogger(StatusTest.class.getName());
 
     @BeforeSuite
     @BeforeTest
-    public void getEnvironment(){
-        try{
-            FileInputStream fis = new FileInputStream("src/Files/env.properties");
-            prop.load(fis);
-        }
-        catch(FileNotFoundException e){
-            log.error("File not found");
-        }
-        catch(IOException e) {
-            log.error("IO Exception");
-        }
-
+    public void setup(){
+        TestCase.getEnvironment();
     }
+
 
     @Test
     public void getServer(){
