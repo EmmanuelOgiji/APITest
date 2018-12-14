@@ -10,6 +10,10 @@
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
             <SizeBasedTriggeringPolicy size ="500" />
         </RollingFile>
+        <RollingFile name="File" fileName="${basePath}/${HOST}.log" filePattern="${basePath}/${HOST}_StatusTest-%d{yyyy-MM-dd}-%d{HH:mm:ss}.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size ="500" />
+        </RollingFile>
         <RollingFile name="UsersTestFile" fileName="${basePath}/${HOST}_UsersTest.log" filePattern="${basePath}/${HOST}_UsersTest-%d{yyyy-MM-dd}-%d{HH:mm:ss}.log">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
             <SizeBasedTriggeringPolicy size ="500" />
